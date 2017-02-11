@@ -25,10 +25,13 @@ Points of note:
   coordinates.
 - Bonus "distance LED": shines brightly when the statue gets close :-)
 - Conditionally outputs FPS info to serial port.
-
-I had to use SPI in two places: the ATmega328P drives the OLED via its
-SPI pins, but it is itself programmed via the SPI pins of the "big
-brother" siting on the right of the breadboard: a Raspberry PI2 I use to
-program the ATmega328P's flash via <a href="contrib/avrdude_gpio.conf.patch">avrdude</a>. And yes, the SPI pins are shared.
+- The code uses the U8G2 library to access the OLED; edit file myscreen.h
+  to define the appropriate constructor for your own OLED.
+- I had to use SPI in two places: the ATmega328P drives the OLED via its
+  SPI pins, but it is itself programmed via the SPI pins of the "big
+  brother" siting on the right of the breadboard: a Raspberry PI2 I use to
+  program the ATmega328P's flash via
+  <a href="contrib/avrdude_gpio.conf.patch">avrdude</a>.
+  And yes, the SPI pins are shared.
 
 Thoroughly enjoyed playing with HW again :-)

@@ -29,9 +29,6 @@ Points of note:
 I had to use SPI in two places: the ATmega328P drives the OLED via its
 SPI pins, but it is itself programmed via the SPI pins of the "big
 brother" siting on the right of the breadboard: a Raspberry PI2 I use to
-program the ATmega328P's flash via avrdude. And yes, the SPI pins are
-shared.
-
-All in all - nice, clean fun.
+program the ATmega328P's flash via <a href="contrib/avrdude_gpio.conf.patch">avrdude</a>. And yes, the SPI pins are shared.
 
 Thoroughly enjoyed playing with HW again :-)

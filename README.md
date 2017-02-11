@@ -17,7 +17,7 @@ This was fun :-)
 
 Points of note:
 
-- Fixed point calculations, of course (8 bits for the decimal part)
+- Fixed point calculations, of course (8 bits for the fractional part)
 - I stored and read the statue data from the .text segment (Google
   PROGMEM).  Even though the ATmega328P has 32KB of flash available to
   store the program code, it only has 2K of RAM. So I use the flash

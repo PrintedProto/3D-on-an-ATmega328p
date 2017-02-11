@@ -9,7 +9,7 @@ OLED screen via SPI at the magnificent resolution of 128x64 :-)
 This was fun :-)
 
 <center>
-<a href="https://drive.google.com/open?id=0B2wfdiRsjeLOb0FEUDItaGFxTVE">
+<a href="https://drive.google.com/open?id=0B2wfdiRsjeLOb0FEUDItaGFxTVE" target="_blank">
 <img src="contrib/3DFX.jpg">
 </a>
 </center>
